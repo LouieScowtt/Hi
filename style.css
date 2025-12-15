@@ -4,8 +4,8 @@ body {
   background-color: grey;
 }
 .Paper {
+  width: 85%;
   background-color: white;
   color: black;
-  width: 85%;
   margin: auto
 }
