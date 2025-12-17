@@ -10,3 +10,7 @@ body {
   margin: auto;
   padding: 25px;
 }
+
+#sep {
+  border-bottom: 1px, gray, solid
+}
