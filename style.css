@@ -14,3 +14,11 @@ body {
 #sep {
   border-bottom: 1px, gray, solid
 }
+
+.secret {
+  color: #1f1f1f
+}
+
+.secret::selection {
+  color: gray;
+}
