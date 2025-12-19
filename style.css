@@ -2,6 +2,31 @@ body {
   left-padding: 55px;
   background-color: grey;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d29c5a;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #d8bb7a;
+}
+
 .Paper {
   width: 85%;
   background-color: white;
@@ -11,11 +36,11 @@ body {
 }
 
 #sep {
-  border-bottom: 1px, gray, solid
+  border-bottom: 1px, gray, solid;
 }
 
 .secret {
-  color: #1f1f1f
+  color: #1f1f1f;
 }
 
 .secret::selection {
